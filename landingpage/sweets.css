@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+    background-image: url("img/sweet\ 7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin: 5px 5px 2px 5px;
+}
+.head h2{
+    justify-content: center;
+    flex: 3;
+    color:#FFDB00;
+    text-align: center;
+}
+nav{
+    flex: 4;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    flex: 1;
+}
+nav a:hover{
+    color: #FF8F00;
+}
+.text{
+    color: beige;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;  
+}
+.text div{
+    margin: 5px;
+}
+.t1{
+    font-size: 25px;
+    color: #fadf2c;  
+}
+.t2{
+    color:#FF8F00;
+}
+button{
+   background-color: white;
+   border: 1px solid wheat;
+   border-radius: 20px;
+   color: black;
+   font-weight: bold;
+   padding: 8px 10px 8px 10px;
+}
+button:hover{
+    background-color: violet;
+   border: 1px solid rgb(245, 55, 235);
+   font-weight: bold;
+   color: rgb(23, 132, 233);
+}
